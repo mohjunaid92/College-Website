@@ -1,0 +1,268 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+header {
+    width: 100vw;
+}
+
+.header-div-left {
+    height: 72px;
+    width: 155px;
+}
+
+.header-div-left img {
+    height: 57px;
+    width: 126px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.header-div-right {
+    width: 100%;
+}
+
+.header-div-right ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: 400px;
+
+
+}
+
+.header-div-right ul li {
+
+    list-style: none;
+    margin-left: 45px
+}
+
+.header-div-right ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600px;
+
+}
+
+.header-div-right ul li a:hover {
+    transform: scale(1.2);
+}
+
+nav {
+    width: 100%;
+
+    display: flex;
+    background-color: black;
+
+}
+
+.video-div {
+
+    width: 100vw;
+
+}
+
+.college-video {
+    width: 100%;
+
+}
+
+.marque {
+    font-size: 46px;
+    line-height: 1;
+    margin: 11px 49px;
+    color: red;
+}
+
+.second {
+    background-color: rgb(209, 204, 197);
+}
+
+.second-div {
+    display: flex;
+    height: 111px;
+    width: 100%;
+
+
+}
+
+.second-div div {
+    width: 50%;
+    height: 111px;
+    margin: 0px 17px;
+}
+
+.abes-glance {
+    margin: 29px 24px;
+}
+
+.abes-glance h1 {
+    font-size: 41px;
+}
+
+.results {
+    display: grid;
+    height: 400px;
+    width: 100%;
+    margin-left: 10px;
+
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.results div {
+    margin: 0 auto;
+    margin-left: 10px;
+    width: 320px;
+    height: 116px;
+    align-content: center;
+    transition: box-shadow 1s ease-in-out;
+    ;
+
+}
+
+.results div h1 {
+    color: rgb(128, 8, 8);
+    padding-left: 90px;
+
+}
+
+.results div:hover {
+    border: solid 0.8px black;
+    border-radius: 10px;
+    box-shadow: 0 0 8px black;
+}
+
+.results div h4 {
+    font-weight: 600px;
+    padding-left: 40px;
+
+
+}
+
+.third {
+    background-color: black;
+    margin-top: -42px;
+    width: 100%;
+    height: 800px;
+}
+
+.about-abes {
+    height: 100px;
+    width: 100%;
+    padding: 0 68px;
+
+}
+
+.about-abes h1 {
+    font-size: 39px;
+    color: rgb(221, 220, 219);
+    line-height: 2.5;
+}
+
+.about-abes div {
+    height: 4px;
+
+    background-color: gray;
+    margin-top: -43px;
+    margin-left: -28px;
+}
+
+.about-abes-des {
+    display: flex;
+    width: 100%;
+    height: 600px;
+    justify-content: space-evenly;
+    margin: 10px;
+
+
+}
+
+.left-abes {
+    height: 685px;
+    width: 496px;
+
+    margin: 0 10px;
+}
+
+.left-abes div .para {
+    font-size: 20px;
+    padding: 10px 22px;
+    color: rgb(233, 233, 233);
+}
+
+.left-abes img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.four .affiliation {
+    height: 100px;
+    width: 100vw;
+}
+
+.four .affiliation h1 {
+    font-size: 45px;
+    margin: 36px 28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.logos {
+    display: flex;
+    flex-wrap: wrap;
+
+
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 90px;
+}
+
+.logos div {
+    height: 260px;
+    width: 210px;
+    margin: 10px;
+
+    border-radius: 10px;
+}
+
+.logos div img {
+    width: 100%;
+    height: 100%;
+
+    border-radius: 10px;
+    transition: all 1s;
+}
+
+.logos div img:hover {
+    box-shadow: 0 0 15px black;
+
+}
+
+#id {
+    width: 18px;
+}
+
+.Welcome {
+    color: white;
+    position: absolute;
+    padding: 0;
+    position: absolute;
+    top: 294px;
+    left: 165px;
+    font-size: 85px;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

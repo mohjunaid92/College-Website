@@ -9,234 +9,217 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,800;0,900;1,800&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
     <style>
-        * {
-            padding: 0;
-            margin: 0;
-
-        }
-
-        nav {
-            display: flex;
-        }
-
-        header {
-            height: 72px;
-            background-color: black;
-            font-family: "Poppins", sans-serif;
-            font-weight: 600;
-            font-style: normal;
-
-
-        }
-
-        .logo img {
-            height: 72px;
-            width: 180px;
-            margin-left: 27px;
-        }
-
-        div ul {
-            list-style: none;
-            display: flex;
-            color: white;
-
-        }
-
-        div ul li {
-            margin: 24px;
-        }
-
-        .list {
-            position: relative;
-            left: 50px;
-        }
-
-        .video {
-            width: 100%;
-
-
-        }
-
-        .video-college {
-            height: 700px;
-            width: 100%;
-
-
-        }
-
-        .heading {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            /* position: absolute; */
-            margin-bottom: -112px;
-        }
-
-        .card {
-            display: flex;
-            width: 100vw;
-
-            height: 500px;
-        }
-
-        .card {
-            justify-content: center;
-            align-items: center;
-            justify-content: space-evenly;
-
-        }
-
-        .card .left {
-            width: 255px;
-            height: 413px;
-            background-color: #14213d;
-            padding: 22px 19px 0px 21px;
-            border-radius: 16px;
-        }
-
-        .card .left img {
-            width: 100%;
-            height: 60%;
-            border-radius: 10px;
-        }
-
-        .google-logo {
-            display: flex;
-            position: relative;
-            width: 39px;
-            height: 43px;
-            top: 10px;
-            width: 35px;
-            margin-right: 11px;
-            width: 100%;
-        }
-
-        .goole-logoo {
-            position: relative;
-            left: 17px;
-
-        }
-
-        .h3 {
-            margin-left: 26px;
-            color: white;
-        }
-
-        .second {
-            background-color: black;
-        }
-
-        .footer {
-            margin-top: 2px;
-            bottom: 0;
-            height: 400px;
-            width: 100vw;
-            background-color: #212529;
-            display: flex;justify-content: space-evenly;
-        }
-        .footer .part {
-            height: 100%;
-           width: 229px;
-             
-      
-             
-    
-           
-        }
+        
     </style>
+
 </head>
 
 <body>
-    <header class="head">
-        <nav class="nav">
-            <div class="logo">
-                <img src="abes.png" alt="logo">
+    <header>
+        <nav class="head">
+            <div class="header-div-left">
+                <img src="abes.png" alt="abes">
             </div>
-            <div class="list">
+            <div class="header-div-right">
                 <ul>
-                    <li>Home </li>
-                    <li>Placement</li>
-                    <li> Contact</li>
-                    <li>Courses</li>
-                    <li>Faculty</li>
-                    <li>Faculty</li>
-
+                    <li><a href=""> Home</a></li>
+                    <li style="color:white;">Course
+                        <select name="jun" id="id">
+                            <option></option>
+                            <option value="MCA">MCA</option>
+                            <option value="MCA">B tech</option>
+                            <option value="MCA">M tech</option>
+                            <option value="MCA">MBA</option>
+                        </select>
+                    </li>
+                    <li><a href=""> Placemnets</a></li>
+                    <li><a href=""> Faculty</a></li>
+                    <li><a href=""> Scholarship</a></li>
+                    <li><a href=""> Fees</a></li>
+                    <li><a href=""> Contacts</a></li>
                 </ul>
             </div>
-
         </nav>
     </header>
     <main>
-        <section class="video">
-            <div class="heading">
-                <h1>
-                    Welcome to Abes
-                </h1>
+        <h1 class="Welcome">Welcome to ABES</h1>
+        <section class="firts-section">
+            <div class="video-div">
+                <video class="college-video">
+                    <source src="1 Home Page Banner.mp4" type="video/mp4">
 
+                    Your browser does not support the video tag.
+                </video>
 
             </div>
 
-            <video class="video-college" autoplay loop>
-                <source class="video-link" src="1 Home Page Banner.mp4" type="video/mp4">
+        </section>
 
-            </video>
 
+        <section class="second">
+            <marquee class="marque">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam adipisci reprehenderit voluptates quo
+                nemo at, minima, ullam officia error sunt fugiat nesciunt voluptatum dolore quae temporibus eveniet.
+                Omnis,
+                provident atque.
+            </marquee>
+
+            <div class="second-div">
+                <div class="abes-glance">
+                    <h1>
+                        ABES at a Glance
+                    </h1>
+                </div>
+                <div class="abes-glance-des">
+                    <p>
+                        For over two decades, ABES has firmly established itself in society as epitome of
+                        outcome-focused learning. Its enduring reputation embodies trust and value.
+
+                    </p>
+                </div>
+            </div>
+            <br>
+
+            <div class="results">
+                <div>
+                    <h1>Est. 2000</h1>
+                    <h4>Celebrating 25 years of excelence</h4>
+
+                </div>
+                <div>
+                    <h1>7,299
+
+                    </h1>
+                    <h4>Students in Campus</h4>
+
+                </div>
+                <div>
+                    <h1>18,000+
+
+                    </h1>
+                    <h4>Alumni Worldwide</h4>
+
+                </div>
+                <div>
+                    <h1>35+
+
+                    </h1>
+                    <h4>Startups Incubated</h4>
+
+                </div>
+                <div>
+                    <h1>59.91 LPA
+
+                    </h1>
+                    <h4>Highest Package in Placements 2024</h4>
+
+                </div>
+                <div>
+                    <h1>1683
+
+                    </h1>
+                    <h4>Offers in Placement 2024</h4>
+
+                </div>
+                <div>
+                    <h1>14.16 Acres
+
+                    </h1>
+                    <h4>Campus With All Modern Facilities</h4>
+
+                </div>
+                <div>
+                    <h1>500 +
+
+                    </h1>
+                    <h4>Recruiters</h4>
+
+                </div>
+                <div>
+                    <h1>1672+
+
+                    </h1>
+                    <h4>Scopus Publication</h4>
+
+                </div>
+
+            </div>
 
         </section>
-        <section class="second">
-            <div class="card">
+        <br>
+        <section class="third">
+            <div class="about-abes">
+                <h1> About ABES</h1>
+                <div></div>
+            </div>
+            <div class="hr"></div>
 
-                <div class="left">
-                    <img src="WhatsApp Image 2025-09-24 at 14.21.29_ef59fe5f.jpg" alt="">
-                    <div class="google-logo">
-                        <div class="goole-logoo">
-                            <img src="google-logo-png-icon-free-download-SUF63j.png" alt="">
-
-                        </div>
-
-                        <h3 class="h3">Placed at Google</h3>
-
-                    </div>
-                    <div class="_content">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quisquam velit nostrum ut ab
-                            accusamus voluptates reprehenderit quam sed! Distinctio in cum perspiciatis cumque at
-                            aliquam ex perferendis iste. Tenetur.</p>
-                    </div>
+            <div class="about-abes-des">
+                <div class="left-abes">
+                    <div>
+                        <p class="para">
+                            At ABES Engineering College, we ignite the flames of curiosity, knowledge, and innovation.
+                            Established over two decades ago under the esteemed Society for Educational Excellence, our
+                            institution has evolved into a dynamic center of learning nestled in the heart of Ghaziabad.
+                            Our unwavering commitment to excellence has garnered us noteworthy positions in the National
+                            Institute Ranking Framework (NIRF), a testament to our dedication to quality education.
 
 
-                </div>
-                <div class="left">
-                    <img id="google-png" src="WhatsApp Image 2025-09-24 at 14.21.29_ef59fe5f.jpg" alt="">
-                    <div class="google-logo">
-                        <div class="goole-logoo">
-                            <img src="google-logo-png-icon-free-download-SUF63j.png" alt="">
-
-                        </div>
-
-                        <h3 class="h3">Placed at Google</h3>
-
+                        </p>
                     </div>
                     <div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quisquam velit nostrum ut ab
-                            accusamus voluptates reprehenderit quam sed! Distinctio in cum perspiciatis cumque at
-                            aliquam ex perferendis iste. Tenetur.</p>
+                        <p class="para">
+                            At ABES Engineering College, we ignite the flames of curiosity, knowledge, and innovation.
+                            Established over two decades ago under the esteemed Society for Educational Excellence, our
+                            institution has evolved into a dynamic center of learning nestled in the heart of Ghaziabad.
+                            Our unwavering commitment to excellence has garnered us noteworthy positions in the National
+                            Institute Ranking Framework (NIRF), a testament to our dedication to quality education.
+
+
+                        </p>
                     </div>
+
+                </div>
+                <div class="left-abes">
+                    <img src="2 About ABES.jpg" alt="abes">
                 </div>
 
+            </div>
+
+        </section>
+        <section class="four">
+            <div class="affiliation">
+                <h1>Affiliations, Approvals, Accreditation & Ranking</h1>
+            </div>
+            <div class="logos">
+                <div>
+                    <img src="1_nxmagw.png" alt="">
+                </div>
+                <div>
+                    <img src="2_wufgpn.png" alt="">
+                </div>
+                <div>
+                    <img src="3_apaurd.png" alt="">
+                </div>
+                <div>
+                    <img src="4_tqgfpj.png" alt="">
+                </div>
+                <div>
+                    <img src="5_i3qsje.png" alt="">
+                </div>
+                <div>
+                    <img src="6.1_glsc8h.png" alt="">
+                </div>
+                <div>
+                    <img src="6.2_mc5j9h.png" alt="">
+                </div>
             </div>
         </section>
     </main>
-    <footer class="bottom">
-        <div class="footer">
-            <div class="part"></div>
-            <div class="part center">
-                <img src="" alt="">
-            </div>
-            <div class="part"></div>
 
-        </div>
-    </footer>
 </body>
 
 </html>
